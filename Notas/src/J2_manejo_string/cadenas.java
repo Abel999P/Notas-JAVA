@@ -1,4 +1,4 @@
-package j2_manejo_string;
+package J2_manejo_string;
 
 public class cadenas {
     public static void main(String[] args) {
