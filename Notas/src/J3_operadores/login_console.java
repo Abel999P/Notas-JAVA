@@ -43,6 +43,6 @@ public class login_console {
                 break;
             };
         };
-
+        scanner.close();
     }
 }

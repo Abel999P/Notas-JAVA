@@ -100,7 +100,7 @@ public class operadores {
         boolean b7 = (i!=k || f<=d) && i==k;
         System.out.println("boolean b7 = (i!=k || f<=d) && i==k; "+b7);
 
-        boolean b8 = true||true&&false;
+        boolean b8 = true|| true && false;
         System.out.println("b8 = true || true && false; "+b8);
         b8 = (true||true)&&false;
         System.out.println("b8 = (true||true)&&false; "+b8);
@@ -111,5 +111,5 @@ public class operadores {
        String variable = 7==5 ? "si es verdadero" : "si es falso";
        System.out.println("7==5 "+(7==5)+" "+variable);
 
-    }
+    };
 }
